@@ -143,6 +143,8 @@ class Bomb:
 class Score:
     """
     スコアに関するクラス
+    スコアとカウントを画面左下に表示する
+    引数 screen：画面Surface
     """
     def __init__(self):
         self.count = 0
